@@ -18,13 +18,15 @@ Use the package manager pip to install all project requirements.
 To get a development env running, use the **.env.example** file to create a **.env** file with appropriate values
 
 
+## Screenshots
 
-## Deployment
+![home](https://user-images.githubusercontent.com/95218150/162715626-01383151-6737-4a4c-a4be-a7b1a5cf8e7a.png)
 
-To run it locally
- ```
- (virtual) $ python3 manage.py runserver
- ```
+
+![registration](https://user-images.githubusercontent.com/95218150/162715999-4fbcac4d-6f8c-4ea6-8d5c-eee8c2b381ad.png)
+
+
+![projects](https://user-images.githubusercontent.com/95218150/162716100-f7d0f532-7b04-4981-97bb-604b20658b88.png)
 
 ## Known Bugs 
 
