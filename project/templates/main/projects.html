@@ -1,0 +1,35 @@
+{% extends 'main/base.html' %}
+{% block title %}
+     Project Review
+{% endblock%}
+{% block content %}
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Image</th>
+      <th scope="col">Options</th>
+    </tr>
+  </thead>
+  <tbody>
+      {% for  project in projects %}
+        {% include 'main/includes/projects_modals.html' %}
+    <tr>
+        <th scope="row">{{ project.pk }}</th>
+                 <td>{{ project.name }}</td>
+                 <td>
+                     <img alt="image" style="width:250px" src="{{ project.image_url }}">
+                 </td>
+                 <td>
+                     <button type="button" class="btn btn-outline-primary"
+                             data-toggle="modal" data-target="#Modal-MoreInfo{{ project.pk }}">
+                         More Info
+                     </button>
+
+                 </td>
+    </tr>
+      {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
