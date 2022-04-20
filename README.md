@@ -1,6 +1,6 @@
-# Awwards
+#     AWWARDS
 
-A Django app that allows users to upload projects and other allow other people to rate them.
+A Django app that allows users to upload projects and other allow other people to rate them
 
 ## Getting Started
 
@@ -18,19 +18,11 @@ Use the package manager pip to install all project requirements.
 To get a development env running, use the **.env.example** file to create a **.env** file with appropriate values
 
 
-## Screenshots
-
-![home](https://user-images.githubusercontent.com/95218150/162715626-01383151-6737-4a4c-a4be-a7b1a5cf8e7a.png)
-
-
-![registration](https://user-images.githubusercontent.com/95218150/162715999-4fbcac4d-6f8c-4ea6-8d5c-eee8c2b381ad.png)
-
-
-![projects](https://user-images.githubusercontent.com/95218150/162716100-f7d0f532-7b04-4981-97bb-604b20658b88.png)
 
 ## Known Bugs 
 
-The website does not contain the comments section thus not allowing users to comment on the projects. 
+There are no known bugs.
+
 
 ## Authors
 
